@@ -275,7 +275,9 @@
                 Console.Write($"{increaserAndDisplayer} {kvp.Value} - {kvp.Key}");
                 increaserAndDisplayer++;
             }
+            Console.CursorVisible = false;
 
+            Console.WriteLine("\n\n\n             Press space \n            to play again!");
             Console.ReadKey();
         }
     }
